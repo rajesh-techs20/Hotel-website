@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+}
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            
+}
+        h2 {
+            color: darkgreen;
+            font-display: block;
+            font-weight: bold;
+         }
+        .gallery img:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+}
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="room.html">ROOMS</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="book.html">BOOK</a>
+    </nav>
+    <div class="gallery">
+        <h2>INTERIOR</h2>
+        <img src="g1.jpg.jpeg">
+         <img src="g6.jpg.jpeg">
+    </div>
+
+    <div class="gallery">
+        <h2>EXTERIOR</h2>
+        <img src="g4.jpg.jpeg">
+        <img src="g2.jpg.jpeg">
+    </div>
+    <div class="gallery">
+        <h2>DINING AREA </h2>
+        <img src="g3.jpg.jpeg">
+        <img src="g5.jpg.jpeg">
+         
+    </div>  
+    <div class="gallery">   
+        <h2>FOOD</h2>
+        <img src="g8.jpg.jpeg">
+        <img src="g9.jpg.jpeg">
+         
+    </div>
+</body>
+</html>
